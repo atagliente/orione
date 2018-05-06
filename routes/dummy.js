@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
+router.get('/', function(req, res) {
     res.render('dummy', { matches: '{store:\'Amazon\',' +
         '                            name:\'Dottrina Del Fascismo: Testo Originale\',' +
         '                            photoLink:\'https://images-eu.ssl-images-amazon.com/images/I/51TCHAbQ0WL._AC_US218_.jpg\',' +
